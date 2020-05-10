@@ -24,7 +24,7 @@ def main():
             print("The car drove {}km".format(distance_driven), end="")
             if car.fuel == 0:
                 print(" and ran out of fuel", end="")
-            print(".")
+           print(".")
         elif choice == "r":
             fuel_to_add = int(input(
                 "How many units of fuel do you want to add to the car? "))
